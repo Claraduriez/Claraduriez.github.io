@@ -1,25 +1,95 @@
-<!DOCTYPE html>
-<!-- saved from url=(0052)https://github.com/Claraduriez/Claraduriez.github.io -->
-<html lang="en" data-color-mode="auto" data-light-theme="light" data-dark-theme="dark" data-a11y-animated-images="system" data-a11y-link-underlines="true" class="js-focus-visible" data-js-focus-visible="" data-turbo-loaded=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css">.turbo-progress-bar {
-  position: fixed;
-  display: block;
-  top: 0;
-  left: 0;
-  height: 3px;
-  background: #0076ff;
-  z-index: 2147483647;
-  transition:
-    width 300ms ease-out,
-    opacity 150ms 150ms ease-in;
-  transform: translate3d(0, 0, 0);
+iframe {
+	
+	height: 100vh;
+	width: 100%;
+	}
+body {
+	background-color: #92F0E0;
+	font-family: Playfair Display, sans-serif;
+	font-size: 16px;
 }
-</style><style>
-:root {
-  --fontStack-monospace: "Monaspace Neon", ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace !important;
+img { 
+	float: left; 
+	margin-right: 20px;
 }
-</style>
+i.presentation {
+	display: flex;
+	gap:20px;
+	align-items: flex-start;
+	}
+	.presentation img { 
+	width: 120px; /*plus fiable que % ici*/
+	height: auto;
+	}
+	.texte-presentation {
+		flex:1;
+		color: #031438;
+		}
+		th { width: 500px;}
+
+ul { list-style-type: square; }
 
 
+#entete-de-page {
+}
+padding: 5px;
+height: 100px;
+background-color: #F7F2C3;
+font-size: 32px;
+font-weight: bold;
+font-variant: small-caps:
+text-align: center;
+#bloc-menu {
+}
+height: 36px;
+background-color:  #F2EBA0;
+float: center;
+color: #FFFFFF;
+
+#contenu {
+padding: 10px;
+}
+color: #FFFFFF;
+
+#contenu {
+padding: 10px;
+background-color: #C7F2E9;
+} /*j'ai mis un fond vert clair sur la zone de contenu*/
+#infos {
+}
+color: darkblue;
+font-style: italic;
+#pied-de-page {
+}
+padding: 5px;
+background-color: #F2D0C7;
+font-size: 11px;
+/*créer des commandes pour lancer /arrêter de la musique*/
+.bouton {
+display:block;
+text-align:center;
+text-decoration:none;
+font-weight: 500;
+color:#f34808:
+font-size:4rem;
+line-height: 2em;}
+
+.bouton.active {
+Color: #08c5f3:
+}
+/*mettre une image aux bords arrondis*/
+.arrondie {
+-moz-border-radius:7px;
+-webkit-border-radius:7px;
+border-radius: 7px;
+}
+.playfair-display-<uniquifier> {
+font-family: "Playfair Display", serif;
+font-optical-sizing: auto;
+font-weight: <weight>;
+font-style: normal;
+
+}
 
 
   
